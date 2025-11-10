@@ -1,0 +1,17 @@
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\bin\Debug\net9.0\Assignment3.Infrastructure.deps.json
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\bin\Debug\net9.0\Assignment3.Infrastructure.runtimeconfig.json
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\bin\Debug\net9.0\Assignment3.Infrastructure.dll
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\bin\Debug\net9.0\Assignment3.Infrastructure.pdb
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\bin\Debug\net9.0\Assignment3.Core.dll
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\bin\Debug\net9.0\Assignment3.Core.pdb
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\obj\Debug\net9.0\Assignment3.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\obj\Debug\net9.0\Assignment3.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\obj\Debug\net9.0\Assignment3.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\obj\Debug\net9.0\Assignment3.Infrastructure.AssemblyInfo.cs
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\obj\Debug\net9.0\Assignment3.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\obj\Debug\net9.0\Assignme.B4EFB0A8.Up2Date
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\obj\Debug\net9.0\Assignment3.Infrastructure.dll
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\obj\Debug\net9.0\refint\Assignment3.Infrastructure.dll
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\obj\Debug\net9.0\Assignment3.Infrastructure.pdb
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\obj\Debug\net9.0\Assignment3.Infrastructure.genruntimeconfig.cache
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\obj\Debug\net9.0\ref\Assignment3.Infrastructure.dll

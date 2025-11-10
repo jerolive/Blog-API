@@ -1,0 +1,11 @@
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Core\bin\Debug\net9.0\Assignment3.Core.deps.json
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Core\bin\Debug\net9.0\Assignment3.Core.dll
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Core\bin\Debug\net9.0\Assignment3.Core.pdb
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Core\obj\Debug\net9.0\Assignment3.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Core\obj\Debug\net9.0\Assignment3.Core.AssemblyInfoInputs.cache
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Core\obj\Debug\net9.0\Assignment3.Core.AssemblyInfo.cs
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Core\obj\Debug\net9.0\Assignment3.Core.csproj.CoreCompileInputs.cache
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Core\obj\Debug\net9.0\Assignment3.Core.dll
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Core\obj\Debug\net9.0\refint\Assignment3.Core.dll
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Core\obj\Debug\net9.0\Assignment3.Core.pdb
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Core\obj\Debug\net9.0\ref\Assignment3.Core.dll
