@@ -24,6 +24,7 @@ namespace Assignment3.Core.Models
         [Required(ErrorMessage = "Content is required")]
         public string Content { get; set; } = string.Empty;
 
+        [Required]
         public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
 
 

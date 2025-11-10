@@ -18,6 +18,7 @@ namespace Assignment3.Core.Models
         [Required(ErrorMessage = "Author is required")]
         public string Author { get; set; } = "admin";
 
+        [Required]
         public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
 
         public DateTime? UpdatedDate { get; set; }
