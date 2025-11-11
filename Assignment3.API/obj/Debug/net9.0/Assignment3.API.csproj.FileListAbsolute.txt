@@ -146,6 +146,7 @@ C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.API\obj\Debug\net9.
 C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.API\obj\Debug\net9.0\Assignment3.API.csproj.CoreCompileInputs.cache
 C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.API\obj\Debug\net9.0\Assignment3.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.API\obj\Debug\net9.0\Assignment3.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.API\obj\Debug\net9.0\Assignment3.API.sourcelink.json
 C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.API\obj\Debug\net9.0\rjimswa.dswa.cache.json
 C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.API\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.API\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json

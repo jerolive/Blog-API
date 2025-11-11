@@ -9,6 +9,7 @@ C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\obj\
 C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\obj\Debug\net9.0\Assignment3.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\obj\Debug\net9.0\Assignment3.Infrastructure.AssemblyInfo.cs
 C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\obj\Debug\net9.0\Assignment3.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\obj\Debug\net9.0\Assignment3.Infrastructure.sourcelink.json
 C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\obj\Debug\net9.0\Assignme.B4EFB0A8.Up2Date
 C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\obj\Debug\net9.0\Assignment3.Infrastructure.dll
 C:\Users\mias2\PROG30000 - Solutions\Assignment3\Assignment3.Infrastructure\obj\Debug\net9.0\refint\Assignment3.Infrastructure.dll
