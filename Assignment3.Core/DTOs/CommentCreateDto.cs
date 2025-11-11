@@ -4,9 +4,6 @@ namespace Assignment3.Core.DTOs
 {
     public class CommentCreateDto
     {
-        [Required(ErrorMessage = "PostId is required")]
-        public int PostId { get; set; }
-
         [Required(ErrorMessage = "Name is required")]
         [StringLength(100, ErrorMessage = "Name cannot be longer than 100 characters")]
         public string Name { get; set; } = string.Empty;

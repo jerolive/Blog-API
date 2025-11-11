@@ -17,7 +17,7 @@ namespace Assignment3.API.Controllers
             _repository = repository;
         }
 
-        // GET: api/comments
+        // GET: api/comment
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Comment>>> GetAllComments()
         {
@@ -26,7 +26,7 @@ namespace Assignment3.API.Controllers
             return Ok(comments);
         }
 
-        // GET: api/comments/{id}
+        // GET: api/comment/{id}
         [HttpGet("{id}")]
         public async Task<ActionResult<Comment>> GetCommentById(int id)
         {
@@ -39,8 +39,8 @@ namespace Assignment3.API.Controllers
             return Ok(comment);
         }
 
-        // GET api/posts/{postId}/comments
-        [HttpGet("/api/posts/{postId}/comments")]
+        // GET api/post/{postId}/comment
+        [HttpGet("/api/post/{postId}/comment")]
         public async Task<ActionResult<IEnumerable<Comment>>> GetCommentsByPostId(int postId)
         {
             var comments = await _repository.GetCommentsByPostIdAsync(postId);
@@ -48,9 +48,9 @@ namespace Assignment3.API.Controllers
             return Ok(comments);
         }
 
-        // POST: api/posts/{postId}/comments
-        [HttpPost("/api/posts/{postId}/comments")]
-        public async Task<ActionResult<Comment>> CreateComment(int id, [FromBody] CommentCreateDto dto)
+        // POST: api/post/{postId}/comment
+        [HttpPost("/api/post/{postId}/comment")]
+        public async Task<ActionResult<Comment>> CreateComment(int postId, [FromBody] CommentCreateDto dto)
         {
             if (!ModelState.IsValid)
             {
@@ -59,7 +59,7 @@ namespace Assignment3.API.Controllers
 
             var comment = new Comment
             {
-                PostId = dto.PostId,
+                PostId = postId,
                 Name = dto.Name,
                 Email = dto.Email,
                 Content = dto.Content,
@@ -75,7 +75,7 @@ namespace Assignment3.API.Controllers
             );
         }
 
-        // PUT: api/comments/{id}
+        // PUT: api/comment/{id}
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateComment(int id, [FromBody] CommentUpdateDto dto)
         {
@@ -103,7 +103,7 @@ namespace Assignment3.API.Controllers
             return Ok(updatedComment);
         }
 
-        // PATCH: api/comments/{id}
+        // PATCH: api/comment/{id}
         [HttpPatch("{id}")]
         public async Task<IActionResult> PatchComment(int id, [FromBody] JsonPatchDocument<Comment> patchDoc)
         {
@@ -130,7 +130,7 @@ namespace Assignment3.API.Controllers
             return Ok(comment);
         }
 
-        // DELETE: api/comments/{id}
+        // DELETE: api/comment/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteComment(int id)
         {
