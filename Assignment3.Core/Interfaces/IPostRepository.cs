@@ -10,5 +10,7 @@ namespace Assignment3.Core.Interfaces
         Task<Post> CreatePostAsync(Post post);
         Task<Post?> UpdatePostAsync(Post post);
         Task<bool> DeletePostAsync(int id);
+
+        Task<bool> ExistsAsync(int id);
     }
 }

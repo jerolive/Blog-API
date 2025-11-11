@@ -66,5 +66,10 @@ namespace Assignment3.Infrastructure.Repositories
             await _context.SaveChangesAsync();
             return true;
         }
+
+        public async Task<bool> ExistsAsync(int id)
+        {
+            return await _context.Comments.AnyAsync(c => c.Id == id);
+        }
     }
 }

@@ -4,12 +4,14 @@ namespace Assignment3.Core.Interfaces
 {
     public interface ICommentRepository
     {
-        public Task<IEnumerable<Comment>> GetAllCommentsAsync();
-        public Task<Comment?> GetCommentByIdAsync(int id);
-        public Task<IEnumerable<Comment>> GetCommentsByPostIdAsync(int postId);
+        Task<IEnumerable<Comment>> GetAllCommentsAsync();
+        Task<Comment?> GetCommentByIdAsync(int id);
+        Task<IEnumerable<Comment>> GetCommentsByPostIdAsync(int postId);
 
-        public Task<Comment> CreateCommentAsync(Comment comment);
-        public Task<Comment?> UpdateCommentAsync(Comment comment);
-        public Task<bool> DeleteCommentAsync(int id);
+        Task<Comment> CreateCommentAsync(Comment comment);
+        Task<Comment?> UpdateCommentAsync(Comment comment);
+        Task<bool> DeleteCommentAsync(int id);
+
+        Task<bool> ExistsAsync(int id);
     }
 }
