@@ -1,6 +1,2 @@
-Assignment3.API/bin/
-Assignment3.API/obj/
-Assignment3.Core/bin/
-Assignment3.Core/obj/
-Assignment3.Infrastructure/bin/
-Assignment3.Infrastructure/obj/
+**/bin/
+**/obj/
