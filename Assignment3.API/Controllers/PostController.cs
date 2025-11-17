@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Assignment3.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/posts")]
     [ApiController]
     public class PostController : ControllerBase
     {

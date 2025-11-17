@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Assignment3.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/comments")]
     [ApiController]
     public class CommentController : ControllerBase
     {
@@ -17,7 +17,7 @@ namespace Assignment3.API.Controllers
             _repository = repository;
         }
 
-        // GET: api/comment
+        // GET: api/comments
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Comment>>> GetAllComments()
         {
@@ -26,7 +26,7 @@ namespace Assignment3.API.Controllers
             return Ok(comments);
         }
 
-        // GET: api/comment/{id}
+        // GET: api/comments/{id}
         [HttpGet("{id}")]
         public async Task<ActionResult<Comment>> GetCommentById(int id)
         {
@@ -39,8 +39,9 @@ namespace Assignment3.API.Controllers
             return Ok(comment);
         }
 
-        // GET api/post/{postId}/comment
-        [HttpGet("/api/post/{postId}/comment")]
+        // GET api/posts/{postId}/comments
+        [HttpGet]
+        [Route("/api/posts/{postId}/comments")]
         public async Task<ActionResult<IEnumerable<Comment>>> GetCommentsByPostId(int postId)
         {
             var comments = await _repository.GetCommentsByPostIdAsync(postId);
@@ -48,8 +49,9 @@ namespace Assignment3.API.Controllers
             return Ok(comments);
         }
 
-        // POST: api/post/{postId}/comment
-        [HttpPost("/api/post/{postId}/comment")]
+        // POST: api/posts/{postId}/comments
+        [HttpPost]
+        [Route("/api/posts/{postId}/comments")]
         public async Task<ActionResult<Comment>> CreateComment(int postId, [FromBody] CommentCreateDto dto)
         {
             if (!ModelState.IsValid)
@@ -75,7 +77,7 @@ namespace Assignment3.API.Controllers
             );
         }
 
-        // PUT: api/comment/{id}
+        // PUT: api/comments/{id}
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateComment(int id, [FromBody] CommentUpdateDto dto)
         {
@@ -103,7 +105,7 @@ namespace Assignment3.API.Controllers
             return Ok(updatedComment);
         }
 
-        // PATCH: api/comment/{id}
+        // PATCH: api/comments/{id}
         [HttpPatch("{id}")]
         public async Task<IActionResult> PatchComment(int id, [FromBody] JsonPatchDocument<Comment> patchDoc)
         {
@@ -130,7 +132,7 @@ namespace Assignment3.API.Controllers
             return Ok(comment);
         }
 
-        // DELETE: api/comment/{id}
+        // DELETE: api/comments/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteComment(int id)
         {

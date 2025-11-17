@@ -16,15 +16,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/post",
-							"protocol": "http",
+							"raw": "{{baseURL}}/api/posts",
 							"host": [
-								"localhost"
+								"{{baseURL}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
-								"post"
+								"posts"
 							]
 						}
 					},
@@ -36,15 +34,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/post/1",
-							"protocol": "http",
+							"raw": "{{baseURL}}/api/posts/1",
 							"host": [
-								"localhost"
+								"{{baseURL}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
-								"post",
+								"posts",
 								"1"
 							]
 						}
@@ -66,15 +62,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/api/post",
-							"protocol": "http",
+							"raw": "{{baseURL}}/api/posts",
 							"host": [
-								"localhost"
+								"{{baseURL}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
-								"post"
+								"posts"
 							]
 						}
 					},
@@ -95,15 +89,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/api/post/1",
-							"protocol": "http",
+							"raw": "{{baseURL}}/api/posts/1",
 							"host": [
-								"localhost"
+								"{{baseURL}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
-								"post",
+								"posts",
 								"1"
 							]
 						}
@@ -125,15 +117,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/api/post/1",
-							"protocol": "http",
+							"raw": "{{baseURL}}/api/posts/1",
 							"host": [
-								"localhost"
+								"{{baseURL}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
-								"post",
+								"posts",
 								"1"
 							]
 						}
@@ -146,16 +136,14 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/post/8",
-							"protocol": "http",
+							"raw": "{{baseURL}}/api/posts/9",
 							"host": [
-								"localhost"
+								"{{baseURL}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
-								"post",
-								"8"
+								"posts",
+								"9"
 							]
 						}
 					},
@@ -172,15 +160,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/comment",
-							"protocol": "http",
+							"raw": "{{baseURL}}/api/comments",
 							"host": [
-								"localhost"
+								"{{baseURL}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
-								"comment"
+								"comments"
 							]
 						}
 					},
@@ -192,15 +178,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/comment/3",
-							"protocol": "http",
+							"raw": "{{baseURL}}/api/comments/3",
 							"host": [
-								"localhost"
+								"{{baseURL}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
-								"comment",
+								"comments",
 								"3"
 							]
 						}
@@ -213,17 +197,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/post/1/comment",
-							"protocol": "http",
+							"raw": "{{baseURL}}/api/posts/1/comments",
 							"host": [
-								"localhost"
+								"{{baseURL}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
-								"post",
+								"posts",
 								"1",
-								"comment"
+								"comments"
 							]
 						}
 					},
@@ -244,17 +226,15 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/api/post/1/comment",
-							"protocol": "http",
+							"raw": "{{baseURL}}/api/posts/1/comments",
 							"host": [
-								"localhost"
+								"{{baseURL}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
-								"post",
+								"posts",
 								"1",
-								"comment"
+								"comments"
 							]
 						}
 					},
@@ -275,15 +255,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/api/comment/3",
-							"protocol": "http",
+							"raw": "{{baseURL}}/api/comments/3",
 							"host": [
-								"localhost"
+								"{{baseURL}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
-								"comment",
+								"comments",
 								"3"
 							]
 						}
@@ -305,15 +283,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/api/comment/7",
-							"protocol": "http",
+							"raw": "{{baseURL}}/api/comments/7",
 							"host": [
-								"localhost"
+								"{{baseURL}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
-								"comment",
+								"comments",
 								"7"
 							]
 						}
@@ -326,22 +302,45 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/comment/8",
-							"protocol": "http",
+							"raw": "{{baseURL}}/api/comments/9",
 							"host": [
-								"localhost"
+								"{{baseURL}}"
 							],
-							"port": "5000",
 							"path": [
 								"api",
-								"comment",
-								"8"
+								"comments",
+								"9"
 							]
 						}
 					},
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "Local (Testing)",
+			"item": [
+				{
+					"name": "Posts",
+					"item": []
+				},
+				{
+					"name": "Comments",
+					"item": []
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "",
+			"type": "default"
+		},
+		{
+			"key": "localBaseURL",
+			"value": "",
+			"type": "default"
 		}
 	]
 }
